@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_main_background"
+    tools:context="com.example.a4paper.CET6Activity">
+    <!--输入要翻译的单词-->
+    <EditText
+        android:id="@+id/search_et6"
+        android:layout_width="@dimen/search_et_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_et_marginTop"
+        android:hint="@string/search_et_hint"
+        android:background="@drawable/edit_background"
+        android:paddingLeft="@dimen/search_et_paddingLeft" />
+    <!--查询按钮-->
+    <Button
+        android:id="@+id/search_btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_btn_marginTop"
+        android:layout_marginLeft="@dimen/search_et_marginLeft"
+        android:background="@drawable/btn_background"
+        android:text="@string/search_btn_text"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+    <!--显示结果的ListView-->
+    <!--添加生词的按钮-->
+
+    <ListView
+        android:id="@+id/result_listView6"
+        android:layout_width="305dp"
+        android:layout_height="185dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/result_listView_marginLeft"
+        android:layout_marginBottom="221dp"/>
+
+    <Button
+        android:id="@+id/btn_add6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/add_btn_marginLeft"
+        android:layout_marginTop="@dimen/add_btn_marginTop"
+        android:text="@string/add_btn_text"
+        android:background="@drawable/btn_background"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/btn_cet6_back"
+        android:text="返回"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="300dp"
+        />
+
+
+</RelativeLayout>

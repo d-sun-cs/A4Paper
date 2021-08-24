@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_bg"
+    >
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/tab_menu"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/search_header" />
+
+    <ImageButton
+        android:id="@+id/cet4_btn"
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/search_book_cet4" />
+
+    <ImageButton
+        android:id="@+id/cet6_btn"
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/search_book_cet6" />
+
+</RelativeLayout>
+
+

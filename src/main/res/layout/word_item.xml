@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="3dp"/>
+
+    <com.example.a4paper.NumberProgressView
+        android:id="@+id/np_numberProgressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:max="10"
+        android:maxHeight="12dp"
+        android:minHeight="12dp"
+        android:background="#33890075"
+        android:progressDrawable="@drawable/pb_pd_sp_blog" />
+</LinearLayout>

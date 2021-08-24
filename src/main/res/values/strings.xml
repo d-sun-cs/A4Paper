@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name0">A4paper</string>
+    <string name="words">words</string>
+    <string name="app_name">词典</string>
+    <string name="search">查询</string>
+    <string name="add">添加</string>
+    <string name="exit">退出</string>
+    <string name="search_et_hint">在此输入要查询的单词</string>
+    <string name="search_btn_text">查询</string>
+    <string name="add_word_hint">单词</string>
+    <string name="add_interpret_hint">解释</string>
+    <string name="word">单 词:</string>
+    <string name="interpret">解 释:</string>
+    <string name="add_btn_text">添加到生词本</string>
+    <string name="cet4_btn_text">四级词汇</string>
+    <string name="cet6_btn_text">六级词汇</string>
+    <string name="look_up_notebook_text">查看生词本</string>
+    <string name="notebook_text">生词本</string>
+    <string name="main_activity_text">词书</string>
+</resources>

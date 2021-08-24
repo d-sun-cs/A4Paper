@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_word"
+        android:layout_width="@dimen/item_word_width"
+        android:layout_height="@dimen/item_id_width"
+        android:paddingLeft="30dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/item_detail"
+        android:paddingLeft="30dp"
+        android:layout_width="@dimen/item_detail_width"
+        android:layout_height="@dimen/item_id_width" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_one"
+        android:icon="@drawable/ic_paper"
+        android:title="A4纸" />
+
+    <item
+        android:id="@+id/tab_two"
+        android:icon="@drawable/ic_book"
+        android:title="词典" />
+
+    <item
+        android:id="@+id/tab_three"
+        android:icon="@drawable/ic_statistic"
+        android:title="统计" />
+
+    <item
+        android:id="@+id/tab_four"
+        android:icon="@drawable/ic_change"
+        android:title="更换" />
+
+</menu>
